@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence, animate } from 'framer-motion'
-import accolite from '../assets/accolite.jpg'
-import mercedes from '../assets/mercedes.jpg'
-import tcs from '../assets/tcs.jpg'
+import accolite from '../assets/accolite.png'
+import mercedes from '../assets/mercedes.png'
+import tcs from '../assets/tcs.jpeg'
 
 // Project Data
 const allProjects = [
