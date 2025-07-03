@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence, animate } from 'framer-motion'
-
+import accolite from '../assets/accolite.jpg'
+import mercedes from '../assets/mercedes.jpg'
+import tcs from '../assets/tcs.jpg'
 
 // Project Data
 const allProjects = [
@@ -147,9 +149,9 @@ export default function Projects() {
 
       {/* Client Logos */}
       <div className="mt-16 flex flex-wrap justify-center items-center gap-10 opacity-60 grayscale dark:invert">
-        <img src="./assets/tcs.jpeg" alt="TCS" className="h-12" />
-        <img src="./assets/mercedes.png" alt="Mercedes-Benz" className="h-20" />
-        <img src="./assets/accolite.png" alt="Accolite" className="h-20" />
+        <img src={tcs} alt="TCS" className="h-12" />
+        <img src={mercedes} alt="Mercedes-Benz" className="h-20" />
+        <img src={accolite} alt="Accolite" className="h-20" />
       </div>
       
     </section>
