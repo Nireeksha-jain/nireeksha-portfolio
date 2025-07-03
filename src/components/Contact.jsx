@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { Mail, Linkedin, Github } from 'lucide-react'
+import pic from '../assets/pic.jpg'
 
 const EMOJIS = ['✨', '☕', '🐞', '💬', '🌐', '💻', '🚀', '🔧', '⚡', '📡', '🧠', '🎯', '📦']
 
@@ -83,7 +84,7 @@ export default function Contact() {
       {/* Floating Emojis */}
       <EmojiParticles />
 <motion.img
-  src="../public/pic.jpg"
+  src={pic}
   alt="Nireeksha Jain"
 className="w-24 h-24 rounded-full mx-auto mb-6 shadow-lg object-cover relative z-20"
   initial={{ opacity: 0, scale: 0.8 }}
